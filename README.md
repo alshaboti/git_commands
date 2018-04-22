@@ -15,6 +15,7 @@ git commit -m "add README"
 git push -u origin master  
 
 # Existing folder
+First create an empty repository using web github (https://github.com/alshaboti/xyz.git), then use command line to upload your project to the created repository.    
 cd existing_folder  
 git init  
 git remote add origin https://github.com/alshaboti/xyz.git  
