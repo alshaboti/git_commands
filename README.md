@@ -1,27 +1,20 @@
-# git_commands
+# Local/remote git repo
 A short list of a common helpful commands  
 Command line instructions
 
 # Git global setup
-git config --global user.name "Mohammed "  
+git config --global user.name "username "  
 git config --global user.email "xyz@gmail.com"
 
-# Create a new repository
-git clone https://github.com/alshaboti/xyz.git  
-cd xyz  
-touch README.md  
-git add README.md  
-git commit -m "add README"  
-git push -u origin master  
-
-# Existing folder
-First create an empty repository using web github (https://github.com/alshaboti/xyz.git), then use command line to upload your project to the created repository.    
-cd existing_folder  
-git init  
-git remote add origin https://github.com/alshaboti/xyz.git  
-git add .  
-git commit -m "Initial commit"  
-git push -u origin master  
+# To push a new project to a new repository
+create an empty repository in github 
+create a new repository on the command line
+echo "# IOTPolicyML" >> README.md
+git init
+git add . 
+git commit -m "first commit"
+git remote add origin <URL to the new github repo>
+git push -u origin master
 
 # Existing Git repository
 cd existing_repo  
