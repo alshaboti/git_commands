@@ -17,8 +17,16 @@ git remote add origin <URL to the new github repo>
 git push -u origin master
 
 # Existing Git repository
+```
 cd existing_repo  
 git remote rename origin old-origin  
 git remote add origin https://ggithub.com/alshaboti/xyz.git  
 git push -u origin --all  
 git push -u origin --tags  
+```
+
+# show set remote origin
+Show current remote origin
+```
+git remote -v
+```
